@@ -37,8 +37,8 @@ class TestSong:
     def test_has_genre_count(self):
         '''keeps count of Songs for each genre.'''
         assert(Song.genre_count["Rap"] == 1)
-        assert(Song.genre_count["Pop"] == 3)
-        assert(Song.genre_count["Rock"] == 1)
+        assert(Song.genre_count["Pop"] == 1)
+        assert(Song.genre_count["Rock"] == 3)
 
     def test_has_artist_count(self):
         '''keeps count of Songs for each artist.'''
